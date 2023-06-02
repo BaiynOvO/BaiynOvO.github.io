@@ -266,11 +266,11 @@ document.addEventListener('pjax:send', () => {
       appId: 'd4JO2Q8fDYUqO0c3W6JpIXgI-gzGzoHsz',
       appKey: 'WC9EhjXIlBOZbfQMLc2ft9wa',
       avatar: 'monsterid',
-      serverURLs: '',
+      serverURLs: 'https://d4jo2q8f.lc-cn-n1-shared.com',
       emojiMaps: "",
       path: window.location.pathname,
       visitor: false
-    }, {"placeholder":"请留下您的昵称与邮箱以便快速收到回复!     在昵称处输入您的QQ账号可自动识别头像与邮箱！"}))
+    }, {"placeholder":"请留下您的昵称与邮箱以便快速收到回复!     在昵称处输入您的QQ账号可自动识别头像与邮箱!","enableQQ":true}))
   }
 
   if (typeof Valine === 'function') initValine() 
@@ -334,7 +334,7 @@ if ('Valine' === 'Valine' || !true) {
   }
 
   const getComment = () => {
-    const serverURL = 'https://d4JO2Q8f.api.lncldglobal.com'
+    const serverURL = 'https://d4jo2q8f.lc-cn-n1-shared.com'
 
     var settings = {
       "method": "GET",
