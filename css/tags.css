@@ -1,6 +1,6 @@
 /* tags��ʽ */
 #aside-content .card-tag-cloud a {
-    color: var(--anzhiyu-fontcolor) !important;
+    color: var(--btn-bg) !important;
     font-size: 1.05rem !important;
     border-radius: 8px;
     display: inline-block;
@@ -8,9 +8,9 @@
 }
 
     #aside-content .card-tag-cloud a:hover {
-        background: var(--anzhiyu-theme);
-        color: var(--anzhiyu-white) !important;
-        box-shadow: var(--anzhiyu-shadow-theme);
+        background: var(--btn-bg);
+        color: var(--font-color) !important;
+        box-shadow: var(--shadow-theme);
     }
 
 @media screen and (min-width: 1300px) {
