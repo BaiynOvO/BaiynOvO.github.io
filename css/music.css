@@ -11,6 +11,10 @@
     display: none;
 }
 
+.aplayer.aplayer-fixed .aplayer-lrc:nth-child(n+2) {
+    display: none;
+}
+
 #page {
     border: 0;
     box-shadow: none !important;
